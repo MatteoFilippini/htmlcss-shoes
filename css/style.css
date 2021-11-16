@@ -6,6 +6,9 @@
     scroll-behavior: smooth;
 }
 
+#text-green,h1{
+    color: green;
+}
 
 h1{
     color: yellow;
@@ -33,7 +36,13 @@ h1{
     background-color: red;
 }
 
+#tommy{
+    background-color: green;
+}
 
+#star{
+    background-color: yellow;
+}
 
 /* Menu menu */
 #main-menu{
