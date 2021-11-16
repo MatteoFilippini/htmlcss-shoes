@@ -35,4 +35,44 @@ h1{
 
 
 
+/* Menu menu */
+#main-menu{
+    /* Si basa alla viewport */
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+    top: 30px;
+    transform: translateY(-50%);
+    display: inline-block;
+}
+
+#main-menu li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+#main-menu li a{
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px 0;
+
+
+    /* padding: 10px 15px; */
+    width: 40px;
+    height: 40px;
+    line-height: 40px; 
+}
+
+#main-menu li a:hover{
+    transform: scale(1.2);
+    /* Ombra sul testo */
+    text-shadow: 2px 2px  2px rgba(0, 0, 0,0.5);
+    box-shadow: 2px 2px  2px rgba(0, 0, 0,0.5);
+}
 
